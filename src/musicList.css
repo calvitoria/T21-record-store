@@ -1,0 +1,53 @@
+/* album */
+.album-container {
+    display: flex;
+}
+
+.albumInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.albumInfo img {
+    width: 200px;
+    margin: 0;
+    box-shadow: rgba(0, 0, 0, 0.842) 0px 5px 15px;
+}
+
+.albumInfo p {
+    color: #B1F830;
+}
+
+.albumInfo h3 {
+    margin: 10px 0 0 0;
+}
+
+.album-songs {
+    margin-top: -125px;
+    padding: 0;
+}
+
+/* lista das músicas com preview */
+.song-preview {
+    display: flex;
+    flex-direction: column;
+}
+
+.song-preview span {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.song-preview audio {
+    width: 500px;
+    margin: 20px 0 10px 0;
+}
+
+.saveToFavs {
+    font-size: 16px;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+}

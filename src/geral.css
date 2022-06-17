@@ -1,0 +1,366 @@
+/* body {
+    text-align: left;
+    color: white;
+    background-color: #2e333d;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+} */
+
+.loadingContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.loadingImg {
+    padding-top: 50px;
+    width: 350px;
+    text-align: center;
+}
+
+.nameContainer {
+    display: flex;
+    justify-content: center;
+    background-color: #AF87FF;
+    border-radius: 4em;
+}
+
+.nameContainer h3 {
+    padding: 10px 0;
+    margin: 0;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.loginPage main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.albumContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.albumInfo {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.albumPic {
+    width: 200px;
+    border-radius: 0.5em;
+    margin-bottom: 12px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding-top: 0;
+}
+
+.albumInfo h3, p {
+    padding: 0;
+    margin: 2px 0;
+}
+
+.iconMusic {
+    position: absolute;
+    width: 55px;
+    margin-left: 140px;
+    margin-top: 250px
+}
+
+.albumSongs {
+    padding: 50px;
+    padding-top: 40px;
+}
+
+.songPreview {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+
+.songPreview h4 {
+   padding: 0;
+   margin: 0;
+   margin-bottom: 5px;
+}
+
+audio {
+    width: 450px;
+    padding: 0;
+    margin-bottom: 2px;
+}
+
+.saveFavs {
+    font-size: 12px;
+}
+
+.songPreview p, input{
+    margin-bottom: 35px;
+}
+
+/* logIn page */
+.loginPage main form {
+    border-radius: 0.5em;
+    padding: 10px 25px;
+    margin-bottom: 50px;
+    width: 500px;
+    border: 2px solid #4a4f57;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.loginPage main form img {
+    width: 100px;
+}
+
+.loginPage main form h3 {
+    font-size: 40px;
+    font-weight: 400;
+    margin:0
+}
+
+
+.loginPage main form input {
+    text-align: center;
+    width: 190px;
+    border-radius: 0.5em;
+    border-style: none;
+    padding: 3px 5px;
+    margin-bottom: 0;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+
+.loginPage form button:disabled {
+    width: 124px;
+    padding: 3px 5px;
+    border-radius: 0.5em;
+    background-color: #bda6eb;
+    border-style: none;
+    color: #84868a;
+}
+
+.loginPage form button:disabled:hover {
+    width: 124px;
+    padding: 3px 5px;
+    border-radius: 0.5em;
+    background-color: #bda6eb;
+    border-style: none;
+    color: #84868a;
+}
+
+
+.loginPage form button {
+    width: 124px;
+    padding: 3px 5px;
+    border-radius: 0.5em;
+    background-color: #AF87FF;
+    border-style: none;
+    color: #ebeffa;
+}
+
+.loginPage form button:hover {
+    width: 124px;
+    padding: 3px 5px;
+    border-radius: 0.5em;
+    background-color: #a377fa;
+    border-style: none;
+    color: #e0e1e4;
+}
+
+.loginPage form p {
+    text-align: justify;
+    padding: 5px 84px;
+    margin-bottom: 5px;
+}
+
+/* search page */
+.searchPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin: 0 100px; */
+}
+
+.searchContainer {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.searchContainer form {
+    padding-bottom: 15px;
+    margin: 0;
+}
+
+.searchContainer form img {
+    width: 20px;
+}
+
+.searchContainer form input {
+   /* background: url('https://user-images.githubusercontent.com/95686401/169656269-607bc4cd-095a-4f18-be29-c28d6cedbc5f.png" />') no-repeat scroll 7px 7px;
+   padding-left:30px; */
+   width: 135px;
+   border-style: none;
+   padding: 3px 0px;
+   border-radius: 0.5em;
+   margin: 0;
+   margin-right: 10px;
+   text-align: justify;
+}
+
+.icon {
+    padding-left: 25px;
+    background: url("https://user-images.githubusercontent.com/95686401/169656269-607bc4cd-095a-4f18-be29-c28d6cedbc5f.png") no-repeat left;
+    background-size: 20px;
+    background-color: #9ccece;
+}
+
+.searchContainer form input::placeholder {
+  margin-left: 50px;
+  text-align: center;
+}
+
+.searchContainer form button:disabled {
+   background-color: #7cc6d3;
+   border-radius: 0.5em;
+   border-style: none;
+   padding: 4px 15px;
+}
+
+.searchContainer form button {
+   background-color: #0BA2BE;
+   color: white;
+   border-radius: 0.5em;
+   border-style: none;
+   padding: 4px 15px;
+   cursor: pointer;
+}
+
+.searchContainer form button:disabled:hover {
+    background-color: #7cc6d3;
+    border-radius: 0.5em;
+    border-style: none;
+    padding: 4px 15px;
+    cursor: auto;
+}
+
+.searchContainer form button:hover {
+    background-color: #06859b;
+}
+
+/* container onde ficam os albuns lado a lado */
+.wrapper {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+.albunsContainer {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* cada card:  */
+.albumCard img {
+   width: 180px;
+   border-radius: 0.3em;
+   padding: 0;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   margin: 0 10px
+}
+
+.albumTitle {
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+
+.albumCard {
+    line-height: 18px;
+    max-width: 190px;
+    margin: 0;
+    padding: 0;
+}
+
+.albumCard span {
+    font-size: 16px;
+}
+
+.discription {
+   margin-bottom: 10px;
+}
+
+.btnContainer {
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-content: center; */
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+
+.goToAlbum {
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.151);
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 0.5px 8px;
+    padding-bottom: 5px;
+    /* border: 0.5px solid rgb(255, 255, 255); */
+    border-radius: 5em;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* album page  */
+
+.albumInfo h3 {
+    padding: 0;
+    margin-top: 5px;
+    line-height: 8px;
+}
+
+/*  profile page - about  */
+
+.aboutMePage {
+    display: flex;
+    justify-content: space-around;
+}
+
+.pic {
+    margin-top: 50px
+}
+
+.aboutText {
+    width: 380px;
+    margin-top: 40px
+}
+
+.aboutText h3 {
+    font-size: 45px;
+    margin: 0;
+    padding: 0;
+}
+
+.aboutText h2 {
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+.aboutText h4 {
+   padding: 0;
+   margin: 0;
+   margin-top: 30px;
+}
+
+.aboutText p {
+    text-align: justify;
+}

@@ -1,0 +1,59 @@
+body {
+    background-color: #1A1B1B;
+    font-family: 'Roboto', sans-serif;
+    color: #F8F4EB;
+    font-size: 20px;
+}
+
+.main-search-pg {
+    display: flex;
+    flex-direction: column;
+}
+
+.searchContainer {
+    display: flex;
+    align-self: center;
+    margin: 0 0 100px 0;
+}
+
+.searchContainer label {
+    font-weight: 300;
+}
+
+.searchContainer form input {
+    margin-right: 15px;
+    padding: 4px 10px;
+    background-color: #6d6d6d;
+    border: none;
+    border-radius: 0.5em;
+}
+
+.searchContainer form button {
+    padding: 5px 20px;
+    border-radius: 0.5em;
+    border: none;
+    color: #B1F830;
+    background-color: #6d6d6d;
+    cursor: pointer;
+}
+
+.searchContainer form button:disabled {
+    padding: 5px 20px;
+    border-radius: 0.5em;
+    border: none;
+    color: #535353;
+}
+
+/* lista dos álbus após pesquisar */
+
+.albuns-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.albuns-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
