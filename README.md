@@ -1,5 +1,5 @@
 ## Bem vindo ao repositório dedicado à 'aulinha' de flexbox!
-### O intúito é mostrar como utilizei flexbox na criação de um Header, Footer, Landing Page e na listagem de inúmeros cards na tela.
+### O intúito dessa pequena 'aulinha' é mostrar como utilizei flexbox na criação de um Header, Landing Page e na listagem de inúmeros cards na tela.
 
 No material abaixo mostro a teoria do flexbox (fontes: alura e mdn) e também os recursos utilizados para criar essa aplicação.
 
