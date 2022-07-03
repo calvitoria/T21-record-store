@@ -44,16 +44,11 @@ body {
     color: #535353;
 }
 
-/* lista dos álbus após pesquisar */
-
-.albuns-wrapper {
-    display: flex;
-    justify-content: center;
-}
-
+/* lista dos álbuns após pesquisar */
 .albuns-container {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-bottom: 100px;
 }
 

@@ -18,7 +18,7 @@ main {
 }
 
 img {
-    width: 650px;
+    width: 450px;
     margin-bottom: 100px;
 }
 
@@ -33,21 +33,22 @@ img {
 }
 
 .text-lp-wrapper h1 {
-    font-size: 115px;
+    font-size: 85px;
     line-height: 105px;
     margin: 0;
 }
 
 .text-lp-wrapper p {
-    max-width: 600px;
-    font-size: 22px;
-    margin: 50px 0;
+    max-width: 450px;
+    font-size: 18px;
+    margin: 35px 0;
 }
 
 .text-lp-wrapper .home-button {
     background-color: #B1F830;
+    font-size: 18px;
     text-align: center;
-    padding: 20px;
+    padding: 15px 20px;
     border-radius: 2em;
     color: #1A1B1B;
     text-decoration: none;

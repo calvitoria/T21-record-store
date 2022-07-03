@@ -22,7 +22,7 @@ class Home extends React.Component {
         <main className='landing-page-wrapper'>
           < img alt='vinyl and singer' src='https://user-images.githubusercontent.com/95686401/174326880-ca63c2ef-cb10-462d-ade4-66d0b4b05373.png' />
           <div className='text-lp-wrapper'>
-            <h3>T21B - record store </h3>
+            <h3>T21 - record store </h3>
             <h1>Music is <br/>life itself.</h1>
             <p> Bem vindo à maior loja musical do Brasil! Aproveite o frete grátis nas compras acima de R$: 200,00!</p>
             <Link className="home-button" to="/search">Encontrar o novo álbum da minha vida</Link>

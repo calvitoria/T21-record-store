@@ -88,17 +88,14 @@ render() {
         ) : <LoadingImg />}
         {isReturnEmpty ? (
           <p>Desculpe, não encontramos este álbum/artista.</p>
-        ) : (
-          <section className="albuns-wrapper">
-            {/* lista dos cards */}
+        ) : (          
             <div className="albuns-container"> 
               {returnedList.flatMap((obj) => (
                 <section key={ obj.collectionId }>
                   <AlbumPreview { ...obj } />
                 </section>
               ))}
-            </div>
-          </section>
+            </div>          
         )}
 
       </main>
