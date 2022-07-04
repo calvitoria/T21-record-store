@@ -27,7 +27,7 @@ render() {
   return (
     <header>
       <Link className="a" to="/home">
-      <img alt="t21b record Store" src="https://user-images.githubusercontent.com/95686401/174191704-8634db07-982d-4eec-969e-0d6180d26432.png" /></Link>
+      <img alt="t21 record Store" src="https://user-images.githubusercontent.com/95686401/174191704-8634db07-982d-4eec-969e-0d6180d26432.png" /></Link>
       <div>       
         <nav>
             {/* ícones: https://fonts.google.com/icons?icon.set=Material+Symbols*/}

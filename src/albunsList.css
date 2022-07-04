@@ -5,14 +5,11 @@ body {
     font-size: 20px;
 }
 
-.main-search-pg {
-    display: flex;
-    flex-direction: column;
-}
+/* faça a estilização da página Search.js */
+/* .main-search-pg {
+} */
 
 .searchContainer {
-    display: flex;
-    align-self: center;
     margin: 0 0 100px 0;
 }
 
@@ -44,11 +41,9 @@ body {
     color: #535353;
 }
 
-/* lista dos álbuns após pesquisar */
+
+/* faça a estilização da lista dos álbuns após pesquisar */
 .albuns-container {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
     margin-bottom: 100px;
 }
 

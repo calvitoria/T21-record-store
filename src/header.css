@@ -1,18 +1,12 @@
+/* faça a estilização do componente Header.js */
 header {
     background-color: #545454;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 10px 20px;
 }
 
 header img {
     width: 90px;
     margin: 10px
-}
-
-nav {
-    display: flex;
 }
 
 nav .link {

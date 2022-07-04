@@ -19,7 +19,7 @@ class Home extends React.Component {
     } return (
       <>
         <Header />
-        <main className='landing-page-wrapper'>
+        <main>
           < img alt='vinyl and singer' src='https://user-images.githubusercontent.com/95686401/174326880-ca63c2ef-cb10-462d-ade4-66d0b4b05373.png' />
           <div className='text-lp-wrapper'>
             <h3>T21 - record store </h3>

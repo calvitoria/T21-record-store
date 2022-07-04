@@ -9,12 +9,12 @@ h1 {
     font-family: 'BioRhyme', serif;
 }
 
+/* faça a estilização da página home.js.js */
 main {
-    display: flex;
-    justify-content: space-around;
     padding-inline: 150px;
     background-color: #1A1B1B;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;  
+   
 }
 
 img {
@@ -22,10 +22,9 @@ img {
     margin-bottom: 100px;
 }
 
-.text-lp-wrapper {
-    display: flex;
-    flex-direction: column;
-}
+/* faça a estilização da página home.js.js */
+/* .text-lp-wrapper {
+} */
 
 .text-lp-wrapper h3 {
     margin-top: 100px;
